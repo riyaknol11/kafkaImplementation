@@ -1,0 +1,9 @@
+1. To create a real world project :
+Producer will read a huge amount of real time stream of data from Wikimedia --> Will write the data to the
+kafka topic --> Consumer will consume the real time stream of data from the kafka broker --> and it
+will write to a database.
+
+
+Kafka-producer-wikimedia (Microservice 1) --> Kafka Broker --> Kafka-consumer-database(Microservice 2)
+
+2. Configuring Wikimedia Producer and creating a topic.
